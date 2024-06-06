@@ -3,10 +3,9 @@ name: Build LuaLaTeX image based on ubuntu image
 on:
   schedule:
     - cron: 0 0 * * 0
-  on:
-    push:
-      branches:
-        - main
+  push:
+    branches:
+      - main
 
   
 jobs:
