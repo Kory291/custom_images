@@ -16,3 +16,6 @@ jobs:
         run: docker build -t lualatex .
 
       - name: Push Docker image
+        run: docker login ghcr.io -u ${{ GITHUB_REPOSITORY_OWNER }} -p ${{ secrets.GITHUB_TOKEN }}
+        run: docker tag lualatex ghcr.io/${{ GITHUB_REPOSITORY_OWNER }}/lualatex:latest
+        run: docker push ghcr.io/${{ GITHUB_REPOSITORY_OWNER }}//lualatex:latest
