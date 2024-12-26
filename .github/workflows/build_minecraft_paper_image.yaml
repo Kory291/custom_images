@@ -21,6 +21,6 @@ jobs:
 
       - name: Push Docker image
         run: |
-          echo ${{ secrets.REGISTRY_TOKEN }} | docker login ghcr.io -u ${{ github.repository_owner }} -password-stdin 
+          echo ${{ secrets.REGISTRY_TOKEN }} | docker login ghcr.io -u ${{ github.repository_owner }} --password-stdin 
           docker tag minecraft_paper ghcr.io/kory291/minecraft_paper:latest
           docker push ghcr.io/kory291/minecraft_paper:latest
