@@ -1,4 +1,4 @@
-FROM marctv/minecraft-papermc-server:1.21.9
+FROM marctv/minecraft-papermc-server:1.21.10
 
 ENV MEMORYSIZE_MIN="1G" \
     MEMORYSIZE_MAX="8G" \
