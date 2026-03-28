@@ -1,0 +1,24 @@
+{
+  "name": "Multi-Player Chess Clock",
+  "short_name": "Chess Clock",
+  "description": "A multi-player chess clock for 2+ players",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#1a1a2e",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGXSURBVFhH7ZbNSsNAFIVT0YI/4MaFG3HhQlzpxpW+gOBKfQFfwJUP4MKV4EIQfABBUFBwoSsXIrgQRPAHRBR1oSj+VPM5OU2aJk2aVOzCA4fMJDN35iaTScI5juM4juM4juM4/yhJkpzRNE3TdJ7neV6v16s1Go2q1+t1ut3uDd/39Xq9TqfTaTabzWaz2Ww+90KhQMVikcrlMl0sFguFQqFarVapVqvR5XI5zuPxOJ1Op+l0Ok2n0+l4PB6Px+NxPB7H4/F4PB6Px+PxeDyO4/F4/H/HYRiSaZo0GAyoVqtRv9+nfr9P/X6f+v0+9Xo96vV61Ov1qNfrUbfbpU6nQ51OhzqdDrXbbWq329RqtajVatHp6Yk+Pz/p8/OTTidP9PH+Tm9vb/T6+kqvr6/08vJCz8/P9PT0RE9PT/T4+EgPDw90f39P9/f3dHd3R7e3t3R7e0s3Nzd0fX1N19fXdHV1RZeXl3RxcUHn5+d0dnZGZ2dndHp6SicnJ3R8fEzHx8d0dHRER0dHdHh4SAcHB7S/v0/7+/u0t7dHu7u7tLOzQ9vb27S1tUWbm5u0sbFB6+vrtLa2Rmtra7S6ukqrq6u0srJCy8vLtLS0RIuLi7SwsED/AFR5YVGOzlX7AAAAAElFTkSuQmCC",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGXSURBVFhH7ZbNSsNAFIVT0YI/4MaFG3HhQlzpxpW+gOBKfQFfwJUP4MKV4EIQfABBUFBwoSsXIrgQRPAHRBR1oSj+VPM5OU2aJk2aVOzCA4fMJDN35iaTScI5juM4juM4juM4/yhJkpzRNE3TdJ7neV6v16s1Go2q1+t1ut3uDd/39Xq9TqfTaTabzWaz2Ww+90KhQMVikcrlMl0sFguFQqFarVapVqvR5XI5zuPxOJ1Op+l0Ok2n0+l4PB6Px+NxPB7H4/F4PB6Px+PxeDyO4/F4/H/HYRiSaZo0GAyoVqtRv9+nfr9P/X6f+v0+9Xo96vV61Ov1qNfrUbfbpU6nQ51OhzqdDrXbbWq329RqtajVatHp6Yk+Pz/p8/OTTidP9PH+Tm9vb/T6+kqvr6/08vJCz8/P9PT0RE9PT/T4+EgPDw90f39P9/f3dHd3R7e3t3R7e0s3Nzd0fX1N19fXdHV1RZeXl3RxcUHn5+d0dnZGZ2dndHp6SicnJ3R8fEzHx8d0dHRER0dHdHh4SAcHB7S/v0/7+/u0t7dHu7u7tLOzQ9vb27S1tUWbm5u0sbFB6+vrtLa2Rmtra7S6ukqrq6u0srJCy8vLtLS0RIuLi7SwsED/AFR5YVGOzlX7AAAAAElFTkSuQmCC",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
