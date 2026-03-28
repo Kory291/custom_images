@@ -10,12 +10,12 @@ on:
 
   
 jobs:
-  buid:
+  build-lualatex-image:
     runs-on: ubuntu-latest
     container: docker:latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Build Docker image
         run: cd lualatex && docker build -t lualatex .
